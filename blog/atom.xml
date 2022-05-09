@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.devraven.io/blog</id>
+    <id>https://docs.devraven.io/blog</id>
     <title>DevRaven Blog</title>
     <updated>2022-05-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.devraven.io/blog"/>
+    <link rel="alternate" href="https://docs.devraven.io/blog"/>
     <subtitle>DevRaven Blog</subtitle>
-    <icon>https://www.devraven.io/img/favicon.ico</icon>
+    <icon>https://docs.devraven.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
         <id>hello-world</id>
-        <link href="https://www.devraven.io/blog/hello-world"/>
+        <link href="https://docs.devraven.io/blog/hello-world"/>
         <updated>2022-05-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello World!]]></summary>
-        <content type="html"><![CDATA[<p>Hello World!</p>]]></content>
+        <summary type="html"><![CDATA[Hello World from DevRaven!]]></summary>
+        <content type="html"><![CDATA[<p>Hello World from DevRaven!</p>]]></content>
         <author>
             <name>Krishna Chaitanya Thota</name>
             <uri>https://github.com/kcthota</uri>
