@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DevRaven',
   tagline: 'Monitoring for developers',
-  url: 'https://docs.devraven.io',
+  url: 'https://www.devraven.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
