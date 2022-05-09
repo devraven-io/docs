@@ -1,0 +1,8 @@
+{
+  "label": "User account",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Access multiple Workspaces and collaborate with others with a valid user account."
+  }
+}
