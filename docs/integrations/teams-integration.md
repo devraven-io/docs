@@ -19,12 +19,15 @@ We do not currently support sending Microsoft Teams notifications to multiple te
 
 5. A modal dialog will be displayed as shown in the picture below.
 6. Click **Add** button next to **Incoming Webhook**
-7. 
-
-8. Copy the generated **Incoming Webhook URL**.
-9. Navigate to [Global Alert Channels](https://app.devraven.io/app/settings/alert-channels) page in Workspace Settings.
-10. Paste the copied **Incoming Webhook URL** to the textbox under **Microsoft Teams incoming webhook URL**
-11. Click **Save changes**
+7. Click **Add** button again on the dialog.
+8. Navigate back to the **Connectors** dialog again and click **Configure** button next to **Incoming Webhook**
+9. Provide Name as **DevRaven** and upload the [Logo](/img/logo1500.jpg) as shown below. 
+![Teams Integration](/img/teams-webhook.png)
+10. Click **Create** button
+11. Copy the generated **Incoming Webhook URL**.
+12. Navigate to [Global Alert Channels](https://app.devraven.io/app/settings/alert-channels) page in Workspace Settings.
+13. Paste the copied **Incoming Webhook URL** to the textbox under **Microsoft Teams incoming webhook URL**
+14. Click **Save changes**
 
 ### Disabling Microsoft Teams integration
 
