@@ -13,7 +13,7 @@ Web Page Monitor Results page shows the historical monitoring results for the mo
 1. Navigate to [Web Page Monitors](https://app.devraven.io/app/webPageMonitors) page.
 2. Click on the monitor for viewing results.
 3. The **Results** page shows the latest status for the monitor, recent 10 results and the category scores for the web page.
-4. Click **Latest result details** button to see details results in a modal dialog.
+4. Click **Latest result details** button to see detailed results in a modal dialog.
 5. The modal dialog also has an option to download the Lighthouse result JSON file. Download the JSON file, drag and drop the file to [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/) to see more detailed results.
 
 ![Web Page Monitor detailed results](/img/web-page-details.png)

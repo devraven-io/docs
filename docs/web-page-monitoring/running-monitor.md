@@ -10,7 +10,9 @@ Web Page monitors, by default, will have a monitoring schedule attached that run
 
 ## How we check?
 
-When a monitor is executed, our backend system automatically spins up a process to execute Google Lighthouse run against the configured Web Page Url. The Web page is loaded to ignore any certificate errors for the Lighthouse run.
+We use Google Lighthouse to analyze your web page for performance, accessibility, best practices, SEO and Progressive Web App scores.
+
+When a run is triggered, we launch a headless Chrome browser to navigate to the specified web page and then run Lighthouse report for that loaded page. We ignore any certificate errors during the page load. If there are any SSL certificate errors with your URL, the test will not report a failure. 
 
 ## Run Manually
 

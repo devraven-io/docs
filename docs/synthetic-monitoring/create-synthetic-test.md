@@ -1,0 +1,40 @@
+---
+sidebar_position: 1
+---
+
+# Create Synthetic Test
+
+A synthetic test allows running your end-to-end test scenario using real browsers from our cloud environment. We leverage Playwright framework to executing the test scenario. The scenarios can be automated adding scripts written in Javascript.
+
+## Add a new Synthetic Test
+
+Navigate to [Synthetic Tests](https://app.devraven.io/app/syntheticTests) page.
+
+1. Click **New Monitor** button.
+2. Provide a **Name** for your test e.g. Check WWW page title.
+3. Optionally, select an **Environment** which contains variables that can be referenced in your test.
+4. Add **Playwright Script** that must be executed for your test. Following is an example Playwright script.
+
+```js
+const { chromium } = require('playwright');
+const { expect } = require('chai');
+
+const browser = await chromium.launch();    
+const page = await browser.newPage();
+await page.goto('https://www.playwright.dev');
+const title = await page.title();
+console.log('Asserting page title');
+expect(title).to.equal('Fast and reliable end-to-end testing for modern web apps | Playwright');
+browser.close();    
+```
+
+5. Leave the **Enabled** toggle button ON to enable the monitor on creation.
+6. Click **Submit**
+
+
+:::note
+
+Synthetic tests will have **Snooze alerts** enabled on creation. This is to prevent sending out alerts while you work on the script to ensure the test is running as expected. Once the script is working as expected, **Unsnooze alerts** for the monitor to start receiving notifications from the monitor.
+
+:::
+
