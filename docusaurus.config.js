@@ -50,12 +50,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'DevRaven',
+        title: '',
         logo: {
-          alt: 'Monitoring for developers',
-          src: 'img/logo.svg',
+          alt: 'Monitoring for Developers',
+          src: 'img/logo.png',
         },
         items: [
+          {to: '/', label: 'Home', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
@@ -78,19 +79,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Monitors',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Synthetic Monitoring',
+                href: 'https://www.devraven.io/synthetics.html',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'SSL Monitoring',
+                href: 'https://www.devraven.io/ssl.html',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Web Page Monitoring',
+                href: 'https://www.devraven.io/webpage.html',
               },
             ],
           },
@@ -100,15 +101,11 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              }              
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DevRaven, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DevRaven, Inc. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

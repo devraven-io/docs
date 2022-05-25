@@ -1,0 +1,8 @@
+{
+  "label": "Web Page Monitoring",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup monitors to continuously monitor performance, accessibility, SEO scores for web pages."
+  }
+}

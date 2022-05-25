@@ -33,6 +33,6 @@ You can switch between **Login with Email & Password** and **Login with Google**
 
 :::note
 
-If you previously did not setup a password for your account, navigate to [Forgot Password](https://app.devraven.io/requestResetPassword) and request password reset for your account. You will receive an email address with instructions to setup a new password for your account.
+If a password was never setup for your account, navigate to [Forgot Password](https://app.devraven.io/requestResetPassword) and request password reset for your account. You will receive an email address with instructions to setup a new password for your account.
 
 :::

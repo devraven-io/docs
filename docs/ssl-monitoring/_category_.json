@@ -1,0 +1,8 @@
+{
+  "label": "SSL Monitoring",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Expired SSL certificates are one of the common scenarios for service outages. Though most cloud service providers provide automated tools and processes for automatic deployment and renewal of SSL certificates, for varieties of reasons there are environments that still have semi-automation or manual processes for renewing and deploying SSL certificates. Such environments that lack full automation for managing SSL certificates or monitoring are prone to SSL certificate related outages"
+  }
+}

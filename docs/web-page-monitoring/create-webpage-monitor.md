@@ -1,0 +1,26 @@
+---
+sidebar_position: 1
+---
+
+# Create Web Page Monitor
+
+A Web Page Monitor allows you to setup monitoring to check performance, SEO, accessibility, PWA, best practices scores for your web pages, powered by Google Lighthouse.
+
+## Add a new Web Page Monitor
+
+Navigate to [Web Page Monitors](https://app.devraven.io/app/webPageMonitors) page.
+
+1. Click **New Monitor** button.
+2. Provide **Name** for the monitor.
+3. Provide a **Web Page URL** to monitor e.g. https://www.example.com
+4. Select **Desktop** or **Mobile** device to use for loading the web page.
+5. Select the **Categories** for evaluating the page on.
+6. Use the category specific sliders to assert minimum scores for the category.
+
+![Web Page Monitor](/img/web-page-config.png)
+
+7. Leave the Status enabled to immediately enable the monitor on creation.
+8. Optionally, select multiple monitoring locations for checking the SSL certificates for your domain from multiple geolocations.
+9. Click **Submit**
+10. A new Web Page monitor is created for the URL.
+
