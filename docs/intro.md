@@ -31,6 +31,19 @@ Configure **Global Alert Channels** to receive alerts to configured email addres
     * **Activate Slack Integration** and follow the instructions to enable Slack integration for your Workspace.
     * **Enable Microsoft Teams** integration by providing an incoming webhook URL for your team.
 
+## Synthetic Tests
+
+Synthetic Tests allow you to automate an end-to-end test scenario that can be scheduled to run at regular intervals. The home page lists few test recipes that can be used as templates for creating new tests.
+
+To create a Synthetic Test from a recipe:
+
+1. Navigate to **Home** in the left navigation menu.
+2. Select an existing **Synthetic test recipe** to create a new test from.
+3. Click **Create a new test** button on the recipe.
+4. A new test is created with the template script prepopulated.
+5. Provide a **Name** for the test.
+6. Click **Submit** to create a new test.
+
 ## SSL Monitors
 SSL Monitors allow you to receive failure alerts for your domain for certificate errors or receive advance warning notifications before the certificate expiry. 
 
