@@ -22,6 +22,6 @@ If US East monitor reports FAILED and US West monitor reports PASSED, since the 
 
 :::caution
 
-Depending on the order of receiving the results and their status from the monitoring locations, the overall run status may change once all the locations complete the test run.
+Depending on the order of receiving the results and their status from the monitoring locations, it can take upto a minute to determine the final status. The final status may be marked as skipped, if we can't determine the outcome from all the monitoring locations.
 
 :::
