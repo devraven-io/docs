@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.devraven.io/blog</id>
     <title>DevRaven Blog</title>
-    <updated>2022-05-09T00:00:00.000Z</updated>
+    <updated>2022-06-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.devraven.io/blog"/>
     <subtitle>DevRaven Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Preview Release]]></title>
         <id>product-preview</id>
         <link href="https://www.devraven.io/blog/product-preview"/>
-        <updated>2022-05-09T00:00:00.000Z</updated>
+        <updated>2022-06-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Starting June 6th, 2022, DevRaven will be available as limited preview release. This release will help us gather feedback for fellow developers on the features and course correct the roadmap based on customer needs.]]></summary>
         <content type="html"><![CDATA[<p>Starting June 6th, 2022, DevRaven will be available as limited preview release. This release will help us gather feedback for fellow developers on the features and course correct the roadmap based on customer needs.</p><p>The features available include:</p><ul><li>Synthetic Monitoring</li><li>SSL Monitoring</li><li>Web Page Monitoring</li><li>User Management including invite user flows.</li><li>Roles</li><li>Workspace Management</li><li>Global alert settings</li></ul><p>More features are in the works and changes get deployed everyday.</p><p>We hope you find DevRaven useful for your development and operations needs. If you have any questions or feedback or need a 1-1 session to help you get started, please reach out to <a href="mailto:support@devraven.io" target="_blank" rel="noopener noreferrer">support@devraven.io</a></p>]]></content>
         <author>
