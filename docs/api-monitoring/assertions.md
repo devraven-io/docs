@@ -14,9 +14,9 @@ No code assertions can be added to API monitors as shown in the screenshot below
 
 Assertions based on HTTP Response Status Code, Response Time, Headers, String body or JSON body can be added.
 
-::: info
+:::info
 
-We support JSONPath expressions for retrieving values from JSON response. The assertion always return a value matching the first element for the provided JSONPath Expression. For example, if your JSONPath returns in returning array, only the first element is used for evaluting the assertion.
+We support JSONPath expressions for retrieving values from JSON response. The assertion always return a value matching the first element for the provided JSONPath Expression. For example, if your JSONPath expression results in returning an array, only the first element is used for evaluting the assertion.
 
 For complex assertions, we recommend leveraging After Request scrips for assertions.
 
