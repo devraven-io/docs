@@ -1,0 +1,8 @@
+{
+  "label": "API Monitoring",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup API monitors to continuously execute HTTP calls and get alerted when your services don't work as expected."
+  }
+}
