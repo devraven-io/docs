@@ -8,6 +8,9 @@ Monitors can be executed manually or can be scheduled to run automatically at pr
 
 API monitors, by default, will have a monitoring schedule attached that runs at 12AM UTC time automatically.
 
+## How we run the monitor?
+Please refer [execution sequence](execution-sequence) for more details on how an API monitor is executed.
+
 ## Run Manually
 
 1. Navigate to [API Monitors](https://app.devraven.io/app/apiMonitors) page.
