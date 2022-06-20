@@ -1,6 +1,6 @@
 {
   "label": "Synthetic Monitoring",
-  "position": 5,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Setup synthetic tests to monitor your critical end-to-end scenarios."

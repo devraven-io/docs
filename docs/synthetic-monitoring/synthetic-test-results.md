@@ -13,7 +13,6 @@ Synthetic Test Results page shows the historical monitoring results for the test
 1. Navigate to [Synthetic Tests](https://app.devraven.io/app/syntheticTests) page.
 2. Click on the monitor for viewing results.
 3. The **Results** page shows the latest status for the test, recent 10 results, any console logs and captured screenshots for the web page.
-4. Click **Latest result details** button to see detailed results in a modal dialog.
 
 ![Synthetic Test Result Data](/img/synthetic-details.png)
 

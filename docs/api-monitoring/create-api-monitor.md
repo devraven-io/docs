@@ -29,6 +29,7 @@ Mustache style variables are supported in URL, Body and Header values which can 
 :::
 
 10. Configure assertions to be executed for asserting the HTTP responses for the API call.
+11. Check **Ignore SSL Errors** if you are running tests against non-production environments using self-signed certificates.
 11. Click **Submit**
 12. A new API monitor is created.
 

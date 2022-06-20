@@ -14,7 +14,7 @@ A previously configured Synthetic Test can be edited from **Edit Test** page.
 
 ## Change Status
 
-Toggle **Status** switch to OFF to disable the Synthetic Test. Toggle to ON for enabling a test.
+Toggle **Status** switch to OFF to disable the Synthetic Test. Toggle to ON for enabling the test.
 
 :::caution
 

@@ -1,6 +1,6 @@
 {
   "label": "Environments",
-  "position": 6,
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Environments provide a mechanism for externalizing variables in your tests"
