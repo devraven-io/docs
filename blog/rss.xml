@@ -4,10 +4,19 @@
         <title>DevRaven Blog</title>
         <link>https://www.devraven.io/blog</link>
         <description>DevRaven Blog</description>
-        <lastBuildDate>Wed, 01 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[API Monitoring]]></title>
+            <link>https://www.devraven.io/blog/api-monitoring</link>
+            <guid>api-monitoring</guid>
+            <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are executed to announce availability of API monitoring for all customers in all the available monitoring regions.]]></description>
+            <content:encoded><![CDATA[<p>We are executed to announce availability of API monitoring for all customers in all the available monitoring regions.</p><p>API monitoring allows you to setup and monitor your critical REST end points to ensure they are working as expected. Similar to other types of monitors, you can also setup monitoring schedules to run your test at regular intervals. Currently the lowest interval we support for executing tests in all regions is 5 minutes.</p><p>We also updated the documentation to clarify the data retention periods for monitoring data. All preview and free plan workspaces will have a data retention period of 10 days and paid workspaces will have a default data retention period of 30 days.</p><p>Few other updates include:</p><ul><li>Manage Workspace (rename or delete Workspace)</li><li>The ability to snooze or view snooze status from list view for all monitors.</li><li>Support for adding tags to monitors</li><li>other bug fixes</li></ul>]]></content:encoded>
+            <category>DevRaven</category>
+        </item>
         <item>
             <title><![CDATA[Preview Release]]></title>
             <link>https://www.devraven.io/blog/product-preview</link>
