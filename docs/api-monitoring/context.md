@@ -6,17 +6,25 @@ sidebar_position: 6
 
 **Context variables** are available and be mutated during API monitor execution. Context variables stays available during the entire execution period.
 
-When a API monitor execution starts, the **Context** object is created and initialized with variables in the associated environment.
+When a API monitor execution starts, the **Context** object is created as an empty object and attributes can be set to context in Before Request script and those attributes will be available for any assertions in the After Request scripts.
 
-For example, if an associated environment has two variables defined `username` and `password`. When the execution starts, the Context object is initialized with two attributes `username` and `password`. Context values can be read, updated or set as below in Before or After Request scripts.
+Here are example snippets of Before Request and After Request scripts leveraging Context.
 
 ```js
 
-//read existing context variables as below
-const username = devraven.context.username;
-const password = devraven.context.password;
+//Before Request script
+//set context variables. txn_id is new context variable being added.
+devraven.context.txn_id = '1234'
 
-//set new context variables as below
-devraven.context.foo = 'bar';
+```
+
+```js
+
+//After Request script
+//read context variables again
+console.log(devraven.context.txn_id);
+
+//or assert with context variables
+expect(devraven.response.jsonBody.id).to.equal(devraven.context.txn_id)
 
 ```

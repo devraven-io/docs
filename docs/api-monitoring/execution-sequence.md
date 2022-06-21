@@ -12,7 +12,7 @@ API monitors are capable of evaluating multiple expressions and executing custom
 
 **2. Context object is set**
 
-    A Context object is created and initialized with attributes from the associated environment.
+    A Context object is created.
 
 **3. Request Template variables are resolved**
 

@@ -34,9 +34,3 @@ devraven.request.headers = {
 }
 
 ```
-
-:::info
-
-Context variables also allow access to the variables in the associted Environment. Refer [Context variables](context) for more details.
-
-:::
