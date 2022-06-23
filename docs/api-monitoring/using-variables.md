@@ -34,3 +34,9 @@ devraven.request.headers = {
 }
 
 ```
+
+:::caution
+
+Variables with prefix `__DR_` are reserved for usage by DevRaven for setting system variables while running monitors. Do not use this prefix while creating variables in your environment. Variables with `__DR_` prefix can get overridden during execution.
+
+:::

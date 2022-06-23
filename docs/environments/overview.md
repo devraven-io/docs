@@ -27,6 +27,10 @@ The [Environments](https://app.devraven.io/app/environments) page shows the list
 4. Click **Edit Environment**.
 5. A modal dialog will be displayed with the variables and their values for that Environment.
 
+:::caution
+Variables with prefix `__DR_` are reserved for usage by DevRaven for setting system variables while running monitors. Do not use this prefix while creating variables in your environment. Variables with `__DR_` prefix can get overridden during execution.
+:::
+
 ## Delete an Environment
 
 1. Navigate to [Environments](https://app.devraven.io/app/environments) page
@@ -38,3 +42,4 @@ The [Environments](https://app.devraven.io/app/environments) page shows the list
 :::danger
 Deleting an environment is an irreversible operation. If an environment that is still in use by any tests is deleted, all the variables that are used in the test will resolve to `undefined` and may cause unexpected results during the test execution.
 :::
+
