@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # PagerDuty Integration
@@ -13,14 +13,6 @@ SSL, Web Page, Synthetic and API monitoring failures, warning and recovery event
 * Once PagerDuty integration is enabled for a Workspace, monitors can be associated with PagerDuty services.
 * When a monitor reports a failure, DevRaven will `trigger` an alert for all associated PagerDuty services for the monitor.
 * When the monitor recovers and passes again, a `resolve` event will be sent to the PagerDuty service to resolve the previously triggered alert.
-
-## Requirements
-
-PagerDuty: `Admin` role is required for enabling the integration. 
-
-DevRaven: Any DevRaven Workspace `User` can activate the PagerDuty integration.
-
-If you are not an Admin or Account Owner in PagerDuty, please reach out to users with this role to enable the integration.
 
 ## Support
 If you need help with this integration, please contact support@devraven.io
