@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Global Alert Channels
+# Notification Settings
 
-Global Alert Settings allow you to configure alert channels that can be commonly used across monitors in your Workspace for receiving alerts. For example: if Slack integration is enabled for your Workspace, all monitors will be able to send alerts to the integrated Slack channel.
+Notification Settings allow you to configure alert channels that can be commonly used across monitors in your Workspace for receiving alerts. For example: if Slack integration is enabled for your Workspace, all monitors will be able to send alerts to the integrated Slack channel.
 
 ### Email Address
 
@@ -14,7 +14,7 @@ Configure an **email address** for receiving alerts from all the monitors. Usual
 
 Enable **Slack** integration for receiving alerts from all the monitors to the configured Slack channel. Only one Slack channel can be setup to receive notifications per Workspace. We do not currently support sending Slack notifications to multiple channels or to monitor specific channels.
 
-Refer [Slack itegration](/docs/integrations/enable-slack-integration) page for more details,
+Refer [Slack integration](/docs/integrations/enable-slack-integration) page for more details,
 
 ### Microsoft Teams incoming webhook URL
 
@@ -22,6 +22,6 @@ You can choose to receive notifications via **Microsoft Teams** by setting up an
 
 :::info
 
-Every monitor by default has notifications enabled to **Global Alert Channels**. You can choose to disable notifications from individual monitors by changing confguration in **Notification Settings** section for the monitor.
+Every monitor by default sends notifications to enabled channels in your Workspace. You can choose to disable notifications from individual monitors by changing confguration in **Notification Settings** section for the monitor.
 
 :::
