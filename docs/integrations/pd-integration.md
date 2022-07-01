@@ -48,6 +48,12 @@ To send monitoring alerts from monitors:
 5. Click **Save** button.
 6. The monitor is now configured to send alerts to associated PagerDuty Services.
 
+Following is an example SSL monitor alert being surfaced in DevRaven and in PagerDuty:
+
+![Failure in DevRaven](/img/dr-pd6.jpg)
+
+![Alert in PagerDuty](/img/dr-pd7.jpg)
+
 ## How to Uninstall
 
 ### In DevRaven
