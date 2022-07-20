@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Overview
 
-Functions (similar to Javascript functions) are reusable code blocks that used with one or more monitor scripts to perform a particular task.
+Functions are reusable code blocks that can be used with one or more monitor scripts to perform a particular task.
 
-Function allow reuse of code blocks without the need for duplicating code.
+Functions help prevent duplication of code across multiple monitors. For example, you can create a function for login to your application and invoke that function from all your monitors without duplicating the code in your scripts.
 
 Functions can be invoked from your `Playwright Script` in Synthetic Tests, `Before Request Script` or `After Request Script` in API monitors.
 
