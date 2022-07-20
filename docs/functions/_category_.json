@@ -1,0 +1,8 @@
+{
+  "label": "Functions",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Functions are reusable code blocks that can be reused with multiple monitoring script"
+  }
+}
