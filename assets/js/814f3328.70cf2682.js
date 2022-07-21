@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevraven_docs=self.webpackChunkdevraven_docs||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Functions and PagerDuty integration","permalink":"/blog/functions"},{"title":"API Monitoring","permalink":"/blog/api-monitoring"},{"title":"Preview Release","permalink":"/blog/product-preview"}]}')}}]);

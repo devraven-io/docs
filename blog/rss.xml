@@ -4,17 +4,26 @@
         <title>DevRaven Blog</title>
         <link>https://www.devraven.io/blog</link>
         <description>DevRaven Blog</description>
-        <lastBuildDate>Mon, 20 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Functions and PagerDuty integration]]></title>
+            <link>https://www.devraven.io/blog/functions</link>
+            <guid>functions</guid>
+            <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reusable functions is one of the most asked feature by our early access customers. Reusable functions help prevent duplication of code across multiple monitoring checks.]]></description>
+            <content:encoded><![CDATA[<p>Reusable functions is one of the most asked feature by our early access customers. Reusable functions help prevent duplication of code across multiple monitoring checks.</p><p>Functions defined in a Workspace can be invoked from Scripts in Synthetic Tests or API monitoring checks. For more details about Functions, refer the documentation <a href="https://docs.devraven.io/docs/functions/overview" target="_blank" rel="noopener noreferrer">here</a>.</p><p>PagerDuty integration is now available. More details on <a href="https://www.pagerduty.com/integrations/devraven/" target="_blank" rel="noopener noreferrer">PagerDuty website</a> and also refer our documentation <a href="https://docs.devraven.io/docs/integrations/pd-integration" target="_blank" rel="noopener noreferrer">here</a></p><p>New availability of persistence APIs to write/retrieve values to temporary storage for monitoring complex dependent scenarios. Refer documentation <a href="https://docs.devraven.io/docs/api-monitoring/preserving-values" target="_blank" rel="noopener noreferrer">here</a></p><p>As we get closer to public availability of the product, we also integrated with Stripe for subscription management and billing. We also clarified our <a href="https://www.devraven.io/pricing.html" target="_blank" rel="noopener noreferrer">Pricing</a> details on our public website.</p><p>Few other updates include:</p><ul><li>Changes to Home screen to show usage details</li><li>Changes to Home screen to show TODO items.</li><li>Documented publicly available APIs in <a href="https://docs.devraven.io/docs/api-monitoring/available-apis" target="_blank" rel="noopener noreferrer">API monitoring checks</a> and <a href="https://docs.devraven.io/docs/synthetic-monitoring/available-apis" target="_blank" rel="noopener noreferrer">Synthetic tests</a></li><li>few bug fixes</li></ul>]]></content:encoded>
+            <category>DevRaven</category>
+        </item>
         <item>
             <title><![CDATA[API Monitoring]]></title>
             <link>https://www.devraven.io/blog/api-monitoring</link>
             <guid>api-monitoring</guid>
             <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[We are executed to announce availability of API monitoring for all customers in all the available monitoring regions.]]></description>
-            <content:encoded><![CDATA[<p>We are executed to announce availability of API monitoring for all customers in all the available monitoring regions.</p><p>API monitoring allows you to setup and monitor your critical REST end points to ensure they are working as expected. Similar to other types of monitors, you can also setup monitoring schedules to run your test at regular intervals. Currently the lowest interval we support for executing tests in all regions is 5 minutes.</p><p>We also updated the documentation to clarify the data retention periods for monitoring data. All preview and free plan workspaces will have a data retention period of 10 days and paid workspaces will have a default data retention period of 30 days.</p><p>Few other updates include:</p><ul><li>Manage Workspace (rename or delete Workspace)</li><li>The ability to snooze or view snooze status from list view for all monitors.</li><li>Support for adding tags to monitors</li><li>other bug fixes</li></ul>]]></content:encoded>
+            <description><![CDATA[We are excited to announce availability of API monitoring for all customers in all the available monitoring regions.]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce availability of API monitoring for all customers in all the available monitoring regions.</p><p>API monitoring allows you to setup and monitor your critical REST end points to ensure they are working as expected. Similar to other types of monitors, you can also setup monitoring schedules to run your test at regular intervals. Currently the lowest interval we support for executing tests in all regions is 5 minutes.</p><p>We also updated the documentation to clarify the data retention periods for monitoring data. All preview and free plan workspaces will have a data retention period of 10 days and paid workspaces will have a default data retention period of 30 days.</p><p>Few other updates include:</p><ul><li>Manage Workspace (rename or delete Workspace)</li><li>The ability to snooze or view snooze status from list view for all monitors.</li><li>Support for adding tags to monitors</li><li>other bug fixes</li></ul>]]></content:encoded>
             <category>DevRaven</category>
         </item>
         <item>
