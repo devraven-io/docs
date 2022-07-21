@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>DevRaven Blog</title>
-        <link>https://www.devraven.io/blog</link>
+        <link>https://docs.devraven.io/blog</link>
         <description>DevRaven Blog</description>
         <lastBuildDate>Wed, 20 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Functions and PagerDuty integration]]></title>
-            <link>https://www.devraven.io/blog/functions</link>
+            <link>https://docs.devraven.io/blog/functions</link>
             <guid>functions</guid>
             <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Reusable functions is one of the most asked feature by our early access customers. Reusable functions help prevent duplication of code across multiple monitoring checks.]]></description>
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[API Monitoring]]></title>
-            <link>https://www.devraven.io/blog/api-monitoring</link>
+            <link>https://docs.devraven.io/blog/api-monitoring</link>
             <guid>api-monitoring</guid>
             <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[We are excited to announce availability of API monitoring for all customers in all the available monitoring regions.]]></description>
@@ -28,7 +28,7 @@
         </item>
         <item>
             <title><![CDATA[Preview Release]]></title>
-            <link>https://www.devraven.io/blog/product-preview</link>
+            <link>https://docs.devraven.io/blog/product-preview</link>
             <guid>product-preview</guid>
             <pubDate>Wed, 01 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Starting June 6th, 2022, DevRaven will be available as limited preview release. This release will help us gather feedback for fellow developers on the features and course correct the roadmap based on customer needs.]]></description>
