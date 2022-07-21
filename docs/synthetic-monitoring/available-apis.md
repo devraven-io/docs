@@ -6,8 +6,9 @@ sidebar_position: 14
 
 Following DevRaven APIs are available for use in your scripts during execution of Synthetic tests.
 
+## State Persistence APIs
 
-## persistValue(key, value)
+### persistValue(key, value)
 
 Persists provided value to public ephemeral storage for retrieval later in any dependent tests.
 
@@ -28,7 +29,7 @@ Values persisted are purged at regular hourly intervals. Values stored are not s
 
 :::
 
-## retrieveValue(key)
+### retrieveValue(key)
 
 Retrieves a previously persisted value using the provided key.
 
@@ -39,7 +40,7 @@ const value = await devraven.retrieveValue('MY_UNIQUE_KEY_HERE_123')
 
 ```
 
-## deleteValue(key)
+### deleteValue(key)
 
 Deletes a previously persisted value from Storage.
 
