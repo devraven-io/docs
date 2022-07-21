@@ -16,7 +16,7 @@ Selected Functions will be included inline before your Playwright script during 
 
 Here is an example Function.
 
-```
+```js
 async function launchPage(browser) {    
     const page = await browser.newPage();
     await page.goto('https://www.playwright.dev');

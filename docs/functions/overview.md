@@ -22,7 +22,7 @@ The [Functions](https://app.devraven.io/app/functions) page shows the list of av
 
 We recommend wrapping your script blocks as a function so they can be invoked in your monitoring scripts as needed. Use `async` keyword to declare async functions.
 
-```
+```js
 function getCredentials() {
     const Base64 = require('crypto-js/enc-base64');
     const Utf8 = require('crypto-js/enc-utf8');
